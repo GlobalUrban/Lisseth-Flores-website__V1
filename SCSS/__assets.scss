@@ -1,0 +1,41 @@
+.tittle {
+  display: flex;
+  height: 70px;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+  .tittle-line {
+    height: 3px;
+    width: 100%;
+    background: $red;
+  }
+
+  .line--blue {
+    height: 3px;
+    width: 100%;
+    background: $font-blue;
+  }
+
+  .line--expanded {
+    width: 130%;
+    justify-self: center;
+    align-self: center;
+  }
+  .line--moved {
+    transform: translateX(25px);
+  }
+}
+
+.tittle--white {
+  color: white;
+}
+
+.tittle--blue {
+  color: $font-blue;
+}
+
+.line--blue {
+  background: $blue;
+}

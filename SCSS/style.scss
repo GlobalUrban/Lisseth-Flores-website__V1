@@ -1,0 +1,26 @@
+@import './vars';
+@import './nav';
+@import './header';
+@import './mixins';
+@import './about';
+@import './_assets';
+@import './goals';
+@import './news';
+@import './donate';
+@import './contact-us';
+@import './footer';
+
+
+body {
+    font-family: $font-family-1;  
+    transition: all 0.4s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
